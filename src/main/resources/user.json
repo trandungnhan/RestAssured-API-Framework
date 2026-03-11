@@ -1,0 +1,11 @@
+{
+  "name": "Dung Nhan",
+  "username": "nhantester",
+  "email": "nhan.tester@bank.com",
+  "address": {
+    "street": "Seven",
+    "city": "Ho Chi Minh"
+  },
+  "phone": "090-123-4567",
+  "website": "nhantester.com"
+}

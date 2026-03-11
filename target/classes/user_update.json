@@ -1,0 +1,11 @@
+{
+  "name": "Dung Nhan Updated",
+  "username": "nhantester_pro",
+  "email": "nhan.updated@bank.com",
+  "address": {
+    "street": "Eight",
+    "city": "Da Nang"
+  },
+  "phone": "090-888-9999",
+  "website": "nhantester.pro"
+}

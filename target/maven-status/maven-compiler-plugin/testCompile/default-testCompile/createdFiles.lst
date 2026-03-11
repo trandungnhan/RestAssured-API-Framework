@@ -1,0 +1,5 @@
+models\User.class
+utils\AllureLogger.class
+models\User$Address.class
+tests\UserTest.class
+utils\RequestSpec.class
