@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.UserTest" time="8.502" tests="7" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.UserTest" time="12.327" tests="7" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,9 +17,8 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\Tran Dung Nhan\AppData\Local\Temp\surefire18444928608117915713\surefirebooter-20260310190013288_3.jar C:\Users\Tran Dung Nhan\AppData\Local\Temp\surefire18444928608117915713 2026-03-10T19-00-12_988-jvmRun1 surefire-20260310190013288_1tmp surefire_0-20260310190013288_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Tran Dung Nhan\AppData\Local\Temp\surefire9086557900824684712\surefirebooter-20260311234426608_3.jar C:\Users\Tran Dung Nhan\AppData\Local\Temp\surefire9086557900824684712 2026-03-11T23-44-25_983-jvmRun1 surefire-20260311234426608_1tmp surefire_0-20260311234426608_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="UserTest"/>
     <property name="surefire.test.class.path" value="F:\Personal Projects\RestAssured-API-Framework\target\test-classes;F:\Personal Projects\RestAssured-API-Framework\target\classes;C:\Users\Tran Dung Nhan\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Tran Dung Nhan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Tran Dung Nhan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Tran Dung Nhan\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Tran Dung Nhan\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Tran Dung Nhan\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Tran Dung Nhan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Tran Dung Nhan\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Tran Dung Nhan\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Tran Dung Nhan\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Tran Dung Nhan\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Tran Dung Nhan\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Tran Dung Nhan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Tran Dung Nhan"/>
@@ -34,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Tran Dung Nhan\AppData\Local\Temp\surefire18444928608117915713\surefirebooter-20260310190013288_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tran Dung Nhan\AppData\Local\Temp\surefire9086557900824684712\surefirebooter-20260311234426608_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
@@ -61,9 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="createUser" classname="tests.UserTest" time="3.231">
+  <testcase name="createUser" classname="tests.UserTest" time="5.593">
     <system-out><![CDATA[HTTP/1.1 201 Created
-Date: Tue, 10 Mar 2026 12:00:18 GMT
+Date: Wed, 11 Mar 2026 16:44:38 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 227
 Connection: keep-alive
@@ -75,8 +74,8 @@ expires: -1
 location: https://jsonplaceholder.typicode.com/users/11
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qNYFx2Yloxdc6xWbGtYK1Mxb32F4%2B3w1NM8N1mBa9bo%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1773144017"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=qNYFx2Yloxdc6xWbGtYK1Mxb32F4%2B3w1NM8N1mBa9bo%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1773144017"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=OdLt%2BodyyArgTomMIsxrc6frlbPGuk9iMzJNURSRl7M%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1773247477"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=OdLt%2BodyyArgTomMIsxrc6frlbPGuk9iMzJNURSRl7M%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1773247477"
 Server: cloudflare
 vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 via: 2.0 heroku-router
@@ -84,9 +83,9 @@ x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
-x-ratelimit-reset: 1773144072
+x-ratelimit-reset: 1773247537
 cf-cache-status: DYNAMIC
-CF-RAY: 9da2287f29ba0d78-SIN
+CF-RAY: 9dac065dbf3cf886-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -107,9 +106,9 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="getUserById" classname="tests.UserTest" time="0.263">
+  <testcase name="getUserById" classname="tests.UserTest" time="0.297">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Tue, 10 Mar 2026 12:00:18 GMT
+Date: Wed, 11 Mar 2026 16:44:38 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -129,10 +128,10 @@ x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
 x-ratelimit-reset: 1772854117
-Age: 1831
+Age: 18839
 cf-cache-status: HIT
 Content-Encoding: gzip
-CF-RAY: 9da228840a9cf876-SIN
+CF-RAY: 9dac06662fe5ce06-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -160,9 +159,9 @@ alt-svc: h3=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="updateUser" classname="tests.UserTest" time="0.861">
+  <testcase name="updateUser" classname="tests.UserTest" time="1.016">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Tue, 10 Mar 2026 12:00:19 GMT
+Date: Wed, 11 Mar 2026 16:44:39 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -172,8 +171,8 @@ etag: W/"eb-54KY21tgXvaCTDr/DUdC3nz9tiU"
 expires: -1
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=j6XOE1RRrgQSacXJ7xUz46VffWyCOwtRkhO%2BjfzCteE%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1773144019"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=j6XOE1RRrgQSacXJ7xUz46VffWyCOwtRkhO%2BjfzCteE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1773144019"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=eGRItzqVB9vjtDcL80q38302%2BAKeVbZIt0uzf1EH0rU%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1773247479"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=eGRItzqVB9vjtDcL80q38302%2BAKeVbZIt0uzf1EH0rU%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1773247479"
 Server: cloudflare
 vary: Origin, Accept-Encoding
 via: 2.0 heroku-router
@@ -181,10 +180,10 @@ x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 998
-x-ratelimit-reset: 1773144072
+x-ratelimit-reset: 1773247537
 cf-cache-status: DYNAMIC
 Content-Encoding: gzip
-CF-RAY: 9da2288559fd8944-SIN
+CF-RAY: 9dac066a3c9997fb-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -201,7 +200,7 @@ alt-svc: h3=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="deleteUser" classname="tests.UserTest" time="0.98">
+  <testcase name="deleteUser" classname="tests.UserTest" time="0.469">
     <system-out><![CDATA[Request method:	DELETE
 Request URI:	https://jsonplaceholder.typicode.com/users/1
 Proxy:			<none>
@@ -215,7 +214,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Tue, 10 Mar 2026 12:00:20 GMT
+Date: Wed, 11 Mar 2026 16:44:40 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 2
 Connection: keep-alive
@@ -225,8 +224,8 @@ etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 expires: -1
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qbmTmSZtqpsT51AXJClPyFPs9r%2BHqSuyskUDkeTzlNE%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1773144020"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=qbmTmSZtqpsT51AXJClPyFPs9r%2BHqSuyskUDkeTzlNE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1773144020"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qX7FXuqGE%2FBnJHDK9biMZs%2BOkz1qjh1xZu8kW4lxJTM%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1773247480"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=qX7FXuqGE%2FBnJHDK9biMZs%2BOkz1qjh1xZu8kW4lxJTM%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1773247480"
 Server: cloudflare
 vary: Origin, Accept-Encoding
 via: 2.0 heroku-router
@@ -234,9 +233,9 @@ x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 997
-x-ratelimit-reset: 1773144072
+x-ratelimit-reset: 1773247537
 cf-cache-status: DYNAMIC
-CF-RAY: 9da2288b8e27d738-SIN
+CF-RAY: 9dac066e594afe23-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -244,11 +243,11 @@ alt-svc: h3=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="getUserByInvalidId" classname="tests.UserTest" time="0.26">
+  <testcase name="getUserByInvalidId" classname="tests.UserTest" time="0.671">
     <system-out><![CDATA[HTTP/1.1 404 Not Found
 ]]></system-out>
   </testcase>
-  <testcase name="createUserWithInvalidData" classname="tests.UserTest" time="1.175">
+  <testcase name="createUserWithInvalidData" classname="tests.UserTest" time="0.5">
     <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <500>.
@@ -317,7 +316,7 @@ Expected status code <400> but was <500>.
     <system-out><![CDATA[HTTP/1.1 500 Internal Server Error
 ]]></system-out>
   </testcase>
-  <testcase name="getProtectedResource" classname="tests.UserTest" time="0.195">
+  <testcase name="getProtectedResource" classname="tests.UserTest" time="0.578">
     <failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <401> but was <200>.

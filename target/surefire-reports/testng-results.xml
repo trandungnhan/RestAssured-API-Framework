@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-10T19:00:15 ICT" name="Surefire suite" finished-at="2026-03-10T19:00:22 ICT" duration-ms="7071">
+  <suite started-at="2026-03-11T23:44:33 ICT" name="Surefire suite" finished-at="2026-03-11T23:44:42 ICT" duration-ms="9233">
     <groups>
     </groups>
-    <test started-at="2026-03-10T19:00:15 ICT" name="Surefire test" finished-at="2026-03-10T19:00:22 ICT" duration-ms="7071">
+    <test started-at="2026-03-11T23:44:33 ICT" name="Surefire test" finished-at="2026-03-11T23:44:42 ICT" duration-ms="9233">
       <class name="tests.UserTest">
-        <test-method signature="createUser()[pri:1, instance:tests.UserTest@4b7c4456]" started-at="2026-03-10T19:00:15 ICT" name="createUser" description="TC01: Create a new User" finished-at="2026-03-10T19:00:18 ICT" duration-ms="3099" status="PASS">
+        <test-method signature="createUser()[pri:1, instance:tests.UserTest@5533dc72]" started-at="2026-03-11T23:44:33 ICT" name="createUser" description="TC01: Create a new User" finished-at="2026-03-11T23:44:38 ICT" duration-ms="5437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="getUserById()[pri:2, instance:tests.UserTest@4b7c4456]" started-at="2026-03-10T19:00:19 ICT" name="getUserById" description="TC02: Get details of User" finished-at="2026-03-10T19:00:19 ICT" depends-on-methods="tests.UserTest.createUser" duration-ms="235" status="PASS">
+        <test-method signature="getUserById()[pri:2, instance:tests.UserTest@5533dc72]" started-at="2026-03-11T23:44:39 ICT" name="getUserById" description="TC02: Get details of User" finished-at="2026-03-11T23:44:39 ICT" depends-on-methods="tests.UserTest.createUser" duration-ms="297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserById -->
-        <test-method signature="updateUser()[pri:3, instance:tests.UserTest@4b7c4456]" started-at="2026-03-10T19:00:19 ICT" name="updateUser" description="TC03: Update details of User" finished-at="2026-03-10T19:00:20 ICT" depends-on-methods="tests.UserTest.createUser" duration-ms="873" status="PASS">
+        <test-method signature="updateUser()[pri:3, instance:tests.UserTest@5533dc72]" started-at="2026-03-11T23:44:39 ICT" name="updateUser" description="TC03: Update details of User" finished-at="2026-03-11T23:44:40 ICT" depends-on-methods="tests.UserTest.createUser" duration-ms="1015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUser -->
-        <test-method signature="deleteUser()[pri:4, instance:tests.UserTest@4b7c4456]" started-at="2026-03-10T19:00:20 ICT" name="deleteUser" description="TC04: Delete an existing User by ID" finished-at="2026-03-10T19:00:21 ICT" depends-on-methods="tests.UserTest.updateUser" duration-ms="980" status="PASS">
+        <test-method signature="deleteUser()[pri:4, instance:tests.UserTest@5533dc72]" started-at="2026-03-11T23:44:40 ICT" name="deleteUser" description="TC04: Delete an existing User by ID" finished-at="2026-03-11T23:44:40 ICT" depends-on-methods="tests.UserTest.updateUser" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method signature="getUserByInvalidId()[pri:5, instance:tests.UserTest@4b7c4456]" started-at="2026-03-10T19:00:21 ICT" name="getUserByInvalidId" description="TC05: Get User with non-existing ID (404)" finished-at="2026-03-10T19:00:21 ICT" duration-ms="235" status="PASS">
+        <test-method signature="getUserByInvalidId()[pri:5, instance:tests.UserTest@5533dc72]" started-at="2026-03-11T23:44:40 ICT" name="getUserByInvalidId" description="TC05: Get User with non-existing ID (404)" finished-at="2026-03-11T23:44:41 ICT" duration-ms="671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserByInvalidId -->
-        <test-method signature="createUserWithInvalidData()[pri:6, instance:tests.UserTest@4b7c4456]" started-at="2026-03-10T19:00:21 ICT" name="createUserWithInvalidData" description="TC06: Create User with invalid data format (400)" finished-at="2026-03-10T19:00:22 ICT" duration-ms="1185" status="FAIL">
+        <test-method signature="createUserWithInvalidData()[pri:6, instance:tests.UserTest@5533dc72]" started-at="2026-03-11T23:44:41 ICT" name="createUserWithInvalidData" description="TC06: Create User with invalid data format (400)" finished-at="2026-03-11T23:44:42 ICT" duration-ms="469" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -104,7 +104,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserWithInvalidData -->
-        <test-method signature="getProtectedResource()[pri:7, instance:tests.UserTest@4b7c4456]" started-at="2026-03-10T19:00:22 ICT" name="getProtectedResource" description="TC07: Access protected resource without token" finished-at="2026-03-10T19:00:22 ICT" duration-ms="195" status="FAIL">
+        <test-method signature="getProtectedResource()[pri:7, instance:tests.UserTest@5533dc72]" started-at="2026-03-11T23:44:42 ICT" name="getProtectedResource" description="TC07: Access protected resource without token" finished-at="2026-03-11T23:44:42 ICT" duration-ms="578" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.

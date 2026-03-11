@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: tests.UserTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.502 s <<< FAILURE! -- in tests.UserTest
-tests.UserTest.createUserWithInvalidData -- Time elapsed: 1.175 s <<< FAILURE!
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.33 s <<< FAILURE! -- in tests.UserTest
+tests.UserTest.createUserWithInvalidData -- Time elapsed: 0.500 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <500>.
@@ -68,7 +68,7 @@ Expected status code <400> but was <500>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-tests.UserTest.getProtectedResource -- Time elapsed: 0.195 s <<< FAILURE!
+tests.UserTest.getProtectedResource -- Time elapsed: 0.578 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <401> but was <200>.
